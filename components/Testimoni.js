@@ -23,7 +23,7 @@ const Testimoni = ({
       image: "/assets/campesina.jpg",
       city: "Oaxaca",
       country: " Oaxaca",
-      rating: "4.5",
+      rating: "4.4",
       testimoni:
         "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor",
     },
@@ -32,7 +32,7 @@ const Testimoni = ({
       image: "/assets/ganadero.jpg",
       city: "Tlaltenango",
       country: " Zacatecas",
-      rating: "4.5",
+      rating: "4.8",
       testimoni:
         "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor",
     },
@@ -41,7 +41,7 @@ const Testimoni = ({
       image: "/assets/8-campesina_SPDA-700x467.jpg",
       city: "Colotlán",
       country: " Jalisco",
-      rating: "4.5",
+      rating: "4.6",
       testimoni:
         "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor.",
     },
