@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Pedro Gonzales",
+      image: "/assets/ganaderos.jpg",
+      city: "Sonora",
+      country: " Sonora",
+      rating: "4.7",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Sofía Rodriguez",
+      image: "/assets/campesina.jpg",
+      city: "Oaxaca",
+      country: " Oaxaca",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Raúl Gómez",
+      image: "/assets/ganadero.jpg",
+      city: "Tlaltenango",
+      country: " Zacatecas",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "María Hernández",
+      image: "/assets/8-campesina_SPDA-700x467.jpg",
+      city: "Colotlán",
+      country: " Jalisco",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow… Estoy muy contento de usar esta aplicación de control y registro ganadero, resultó ser más de lo que esperaba y hasta ahora no ha habido problemas. VacApp siempre es la mejor.",
     },
   ],
 }) => {

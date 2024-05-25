@@ -23,14 +23,13 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Choose Your Plan
+              Elige el plan que más se adecue a ti.
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the package that is best for you and explore it happily
-              and cheerfully.
+              Seleccionemos el paquete que es mejor para ti y que se adecue mejor a tus necesidades.
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -54,27 +53,27 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  Plan gratuito
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                    Registro de ganado
                   </li>
                   <li className="relative check custom-list my-2">
-                    Encrypted Connection
+                    Registro de potreros
                   </li>
                   <li className="relative check custom-list my-2">
-                    No Traffic Logs
+                    Registro del historial médico
                   </li>
                   <li className="relative check custom-list my-2">
-                    Works on All Devices
+                    Hasta 45 animales
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    Gratis
                   </p>
-                  <ButtonOutline>Select</ButtonOutline>
+                  <ButtonOutline>Descargar</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -98,30 +97,30 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                Plan Standard{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
+                  <li className="relative check custom-list my-2">
+                    Registro de ganado
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Registro de potreros
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Registro del historial médico
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Hasta 70 animales
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Notificaciónes sobre tratamientos
+                  </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                  $450MXN<span className="text-black-500">/mes</span>
                 </p>
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonOutline>Descargar</ButtonOutline>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -148,31 +147,31 @@ const Pricing = () => {
                 Premium Plan{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-                <li className="relative check custom-list my-2">
-                  Get New Features{" "}
-                </li>
+              <li className="relative check custom-list my-2">
+                    Registro de ganado
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Registro de potreros
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Registro del historial médico
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Animales ilimitados
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Notificaciónes sobre tratamientos
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Reportes específicos de cada res
+                  </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                  $1250MXN<span className="text-black-500">/mes</span>
                 </p>
 
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonOutline>Descargar</ButtonOutline>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -183,11 +182,10 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Red de servidores de VacApp{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+              Ten tu información en cualquier parte del mundo en cualquier momento.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
@@ -196,34 +194,7 @@ const Pricing = () => {
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
-              {/* <Netflix className="h-18 w-auto" /> */}
-              <img
-                src="/assets/Icon/amazon.png"
-                className="h-14 w-auto mt-4 lg:mt-2"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/netflix.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/reddit.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/discord.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/spotify.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-            </motion.div>
+            
           </ScrollAnimationWrapper>
         </div>
         <div className="flex flex-col w-full my-16" id="testimoni">
@@ -231,14 +202,13 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+              Certificado por varias instituciónes{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              These are the stories of our customers who have joined us with great
-              pleasure when using this crazy feature.
+              Estas son las historias de personas que se animaron a probar los servicios de VacApp
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
@@ -251,11 +221,11 @@ const Pricing = () => {
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> Get Special Features!
+                    Subscribete ahora <br /> Obten descuentos especiales!
                   </h5>
-                  <p>Let's subscribe with us and find the fun.</p>
+                  <p>Subscribete y ten el control de tu ganado en la palma de tu mano.</p>
                 </div>
-                <ButtonPrimary>Get Started</ButtonPrimary>
+                <ButtonPrimary>Descargar</ButtonPrimary>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"

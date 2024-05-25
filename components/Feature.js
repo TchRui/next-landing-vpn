@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits."
+  "Control y seguimiento de cada cabeza de ganado.",
+  "Registro y seguimiento de historial médico.",
+  "Localización en base a ranchos",
+  "Visualización de ganado"
 ]
 
 const Feature = () => {
@@ -36,11 +36,10 @@ const Feature = () => {
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
+            Nosotros proveemos diferentes características que puedes usar
           </h3>
           <p className="my-2 text-black-500">
-            You can explore the features that we provide with fun and have their
-            own functions each feature.
+            Puedes epxolrar las diferentes soluciones que tenemos para ti...
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
